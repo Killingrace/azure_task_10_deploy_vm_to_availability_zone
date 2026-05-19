@@ -10,7 +10,7 @@ $sshKeyPublicKey = Get-Content "~/.ssh/id_ed25519.pub"
 $vmName = "matebox"
 $vmName2 = "matebox2"
 $vmImage = "Ubuntu2204"
-$vmSize = "Standard_D2ads_v6"
+$vmSize = "Standard_B1s"
 
 Write-Host "Creating a resource group $resourceGroupName ..."
 New-AzResourceGroup -Name $resourceGroupName -Location $location
